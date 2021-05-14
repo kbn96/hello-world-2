@@ -1,0 +1,13 @@
+description class Vector
+
+Void Vector(int setcap): used to create new vector with int setcap is size of that vector
+void vector_del(): free all memory allocated for vector
+void add(): adds new elements for vector
+void display(): displays vector on screen 
+void pushback(): adds new element to the end of vector
+void popback(): deletes last element of vector
+void clear(): deletes all element of vector
+void insert(int pnt, float newval): adds new element (newval) at (pnt) point
+void erase(int pnt): erases element at (pnt) point 
+void sort (int x): with x=1, sorts the element in ascending order
+		   with x=0, sorts in descending order
